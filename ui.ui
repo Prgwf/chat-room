@@ -6,29 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>826</width>
-    <height>779</height>
+    <width>850</width>
+    <height>788</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>ChatRoom</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTextEdit" name="msgjar">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>530</y>
-      <width>801</width>
-      <height>181</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="namelabel">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>460</y>
+      <x>20</x>
+      <y>600</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -45,8 +35,8 @@
    <widget class="QPushButton" name="sendbutton">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>710</y>
+      <x>10</x>
+      <y>720</y>
       <width>92</width>
       <height>36</height>
      </rect>
@@ -55,23 +45,33 @@
      <string>Send</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="msglist">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>801</width>
-      <height>451</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="namejar">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>490</y>
+      <x>10</x>
+      <y>630</y>
       <width>113</width>
       <height>36</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="msgjar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>670</y>
+      <width>791</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="msglist">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>791</width>
+      <height>571</height>
      </rect>
     </property>
    </widget>
